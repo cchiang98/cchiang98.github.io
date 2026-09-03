@@ -2,7 +2,16 @@
 node_modules/
 dist/
 .astro/
+.next/
+.vinext/
+.wrangler/
+out/
 .env
 .env.*
 !.env.example
 
+# Private working material that should not be published with the portfolio.
+.openai/
+PORTFOLIO_AUDIT*.md
+SELECTED_WORK_ARCHIVE.md
+public/casey-chiang-production-edited.png

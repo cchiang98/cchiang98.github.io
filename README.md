@@ -1,17 +1,14 @@
-# Casey Chiang — Portfolio
+# Casey Chiang | Producer & Journalist
 
-Source repository for Casey Chiang's media portfolio at `cchiang98.github.io`.
+Source for [Casey Chiang's media portfolio](https://cchiang98.github.io/),
+featuring selected work across breaking news, global affairs, political
+reporting, long-form interviews, and digital audience strategy.
 
-## Project status
+## Local preview
 
-Foundation only. The information architecture, visual system, and implementation
-will be selected after reviewing high-quality editorial and media portfolio
-references.
+Install dependencies with `pnpm install`, then run `pnpm dev`.
 
-## Working principles
+## Publishing
 
-- Lead with selected video work and Casey's specific contribution to each piece.
-- Build one durable professional identity with audience-specific framing.
-- Prioritize editorial judgment, clarity, accessibility, and performance.
-- Keep large video assets out of Git; use appropriate streaming or embedding.
-
+Updates to the `main` branch are built as a static site and deployed to GitHub
+Pages through the repository's Pages workflow.
